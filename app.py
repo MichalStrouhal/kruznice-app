@@ -27,7 +27,7 @@ michalstrouhal@Michal-MacBook-Pro ~ % nano app.py
                 
         buffer.seek(0)  
         st.success("PDF připraveno ke stažení.")
-        st.download_button("Stáhnout PDF", data=buffer, file_name="kruznice_rep$
+        st.download_button("Stáhnout PDF", data=buffer, file_name="kruznice_report.pdf", mime="application/pdf")
             
 st.write("---")
 st.caption("Tip: pro tisk do fyzické tiskárny můžeš stáhnout PDF a použít tisk $
